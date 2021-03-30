@@ -8,7 +8,7 @@ def home(request):
 
 def about(request):
     resume=Resume.objects.get(pk=1)
-    return render(request,'about.html',{"resume":resume})
+    return render(request,'about.html')
 
 def contact(request):
     return render(request,'contact.html')
