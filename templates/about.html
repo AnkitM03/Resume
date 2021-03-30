@@ -1,0 +1,224 @@
+{% extends 'base_2.html' %}
+
+{% block title %}About - Ankit Personal Portfolio{% endblock %}
+{% block content %}
+
+<section class="title-section text-left text-sm-center revealator-slideup revealator-once revealator-delay1">
+    <h1>ABOUT <span>ME</span></h1>
+    <span class="title-bg">Resume</span>
+</section>
+<!-- Page Title Ends -->
+<!-- Main Content Starts -->
+<section class="main-content revealator-slideup revealator-once revealator-delay1">
+    <div class="container">
+        <div class="row">
+            <!-- Personal Info Starts -->
+            <div class="col-12 col-lg-7 col-xl-7" style="padding-right: 0px; display: block; margin: auto;">
+                <div class="row">
+                    <div class="col-12">
+                        <h3 class="text-uppercase custom-title mb-0 ft-wt-600" style="text-align: center; padding-bottom: 41px;">personal info</h3>
+                    </div>
+                    <div class="col-12 d-block d-sm-none">
+                        <img src="/static/img/photo.jpg" class="img-fluid main-img-mobile" alt="my picture" />
+                    </div>
+                    <div class="col-6">
+                        <ul class="about-list list-unstyled open-sans-font">
+                            <li> <span class="title">first name :</span> <span class="value d-block d-sm-inline-block d-lg-block d-xl-inline-block">{{resume.First_Name}}</span> </li>
+                            <li> <span class="title">last name :</span> <span class="value d-block d-sm-inline-block d-lg-block d-xl-inline-block">{{resume.Last_Name}}</span> </li>
+                            <li> <span class="title">Age :</span> <span class="value d-block d-sm-inline-block d-lg-block d-xl-inline-block">{{resume.Age}} years</span> </li>
+                            <li> <span class="title">Nationality :</span> <span class="value d-block d-sm-inline-block d-lg-block d-xl-inline-block">{{resume.Nationality}}</span> </li>
+                            <li> <span class="title">Freelance :</span> <span class="value d-block d-sm-inline-block d-lg-block d-xl-inline-block">{{resume.Freelance}}</span> </li>
+                        </ul>
+                    </div>
+                    <div class="col-6">
+                        <ul class="about-list list-unstyled open-sans-font">
+                            <li> <span class="title">Address :</span> <span class="value d-block d-sm-inline-block d-lg-block d-xl-inline-block">{{resume.Address}}</span> </li>
+                            <li> <span class="title">phone :</span> <span class="value d-block d-sm-inline-block d-lg-block d-xl-inline-block">{{resume.Phone}}</span> </li>
+                            <li> <span class="title">Email :</span> <span class="value d-block d-sm-inline-block d-lg-block d-xl-inline-block">{{resume.Email}}</span> </li>
+                            <li> <span class="title">langages :</span> <span class="value d-block d-sm-inline-block d-lg-block d-xl-inline-block">{{resume.Langages}}</span> </li>
+                            <li> <span class="title">Hobby :</span> <span class="value d-block d-sm-inline-block d-lg-block d-xl-inline-block">{{resume.Hobby}}</span> </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- Personal Info Ends -->
+            <!-- Boxes Starts -->
+<!--            <div class="col-12 col-lg-7 col-xl-6 mt-5 mt-lg-0">-->
+<!--                <div class="row">-->
+<!--                    <div class="col-6">-->
+<!--                        <div class="box-stats with-margin">-->
+<!--                            <h3 class="poppins-font position-relative">12</h3>-->
+<!--                            <p class="open-sans-font m-0 position-relative text-uppercase">years of <span class="d-block">experience</span></p>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                    <div class="col-6">-->
+<!--                        <div class="box-stats with-margin">-->
+<!--                            <h3 class="poppins-font position-relative">97</h3>-->
+<!--                            <p class="open-sans-font m-0 position-relative text-uppercase">completed <span class="d-block">projects</span></p>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                    <div class="col-6">-->
+<!--                        <div class="box-stats">-->
+<!--                            <h3 class="poppins-font position-relative">81</h3>-->
+<!--                            <p class="open-sans-font m-0 position-relative text-uppercase">Happy<span class="d-block">customers</span></p>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                    <div class="col-6">-->
+<!--                        <div class="box-stats">-->
+<!--                            <h3 class="poppins-font position-relative">53</h3>-->
+<!--                            <p class="open-sans-font m-0 position-relative text-uppercase">awards <span class="d-block">won</span></p>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+            <!-- Boxes Ends -->
+        </div>
+        <hr class="separator">
+        <!-- Skills Starts -->
+        <div class="row">
+            <div class="col-12">
+                <h3 class="text-uppercase pb-4 pb-sm-5 mb-3 mb-sm-0 text-left text-sm-center custom-title ft-wt-600">My Skills</h3>
+            </div>
+            <div class="col-6 col-md-3 mb-3 mb-sm-5">
+                <div class="c100 p100">
+                    <span>Python</span>
+                    <div class="slice">
+                        <div class="bar"></div>
+                        <div class="fill"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-3 mb-3 mb-sm-5">
+                <div class="c100 p100">
+                    <span style="font-size: 22px; padding-left: 5px;padding-top: 4px;">DJANGO</span>
+                    <div class="slice">
+                        <div class="bar"></div>
+                        <div class="fill"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-3 mb-3 mb-sm-5">
+                <div class="c100 p100">
+                    <span>HTML</span>
+                    <div class="slice">
+                        <div class="bar"></div>
+                        <div class="fill"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-3 mb-3 mb-sm-5">
+                <div class="c100 p100">
+                    <span>CSS</span>
+                    <div class="slice">
+                        <div class="bar"></div>
+                        <div class="fill"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-3 mb-3 mb-sm-5">
+                <div class="c100 p100">
+                    <span>JS</span>
+                    <div class="slice">
+                        <div class="bar"></div>
+                        <div class="fill"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-3 mb-3 mb-sm-5">
+                <div class="c100 p100">
+                    <span>SQL</span>
+                    <div class="slice">
+                        <div class="bar"></div>
+                        <div class="fill"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-3 mb-3 mb-sm-5">
+                <div class="c100 p100">
+                    <span>C#</span>
+                    <div class="slice">
+                        <div class="bar"></div>
+                        <div class="fill"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-3 mb-3 mb-sm-5">
+                <div class="c100 p100">
+                    <span style="font-size: medium;padding-left: 17px;padding-top: 17px;">Wordpress</span>
+                    <div class="slice">
+                        <div class="bar"></div>
+                        <div class="fill"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Skills Ends -->
+        <hr class="separator mt-1">
+        <!-- Experience & Education Starts -->
+        <div class="row">
+            <div class="col-12">
+                <h3 class="text-uppercase pb-5 mb-0 text-left text-sm-center custom-title ft-wt-600">Experience <span>&</span> Education</h3>
+            </div>
+            <div class="col-lg-6 m-15px-tb">
+                <div class="resume-box">
+                    <ul>
+                        <li>
+                            <div class="icon">
+                                <i class="fa fa-briefcase"></i>
+                            </div>
+                            <span class="time open-sans-font text-uppercase">07/2020-10/2020</span>
+                            <h5 class="poppins-font text-uppercase">Business Development Intern <span
+                                    class="place open-sans-font">Trudawn Solutions</span></h5>
+                            <p class="open-sans-font">Worked in BM team by making various strategies, managing and also worked with Digital Marketing team also </p>
+                        </li>
+                        <li>
+                            <div class="icon">
+                                <i class="fa fa-briefcase"></i>
+                            </div>
+                            <span class="time open-sans-font text-uppercase">06/219 - 07/2019</span>
+                            <h5 class="poppins-font text-uppercase">Intern <span
+                                    class="place open-sans-font">Smart-i Electronics Pvt. Ltd.</span></h5>
+                            <p class="open-sans-font">Worked in production department, updating the software of ATM panel and sensor testing</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-6 m-15px-tb">
+                <div class="resume-box">
+                    <ul>
+                        <li>
+                            <div class="icon">
+                                <i class="fa fa-graduation-cap"></i>
+                            </div>
+                            <span class="time open-sans-font text-uppercase">2020</span>
+                            <h5 class="poppins-font text-uppercase">Bachelor of Engineering <span class="place open-sans-font">Mumbai University</span></h5>
+                            <p class="open-sans-font">Dwarkadas J. Sanghvi College of Engineering</p>
+                            <p class="open-sans-font">CGPA : 8</p>
+                        </li>
+                        <li>
+                            <div class="icon">
+                                <i class="fa fa-graduation-cap"></i>
+                            </div>
+                            <span class="time open-sans-font text-uppercase">2017</span>
+                            <h5 class="poppins-font text-uppercase">Diploma<span class="place open-sans-font">MSBTE</span></h5>
+                            <p class="open-sans-font">Bhausaheb Vartak Polytechnic</p>
+                            <p class="open-sans-font">Percentage : 87.49</p>
+                        </li>
+                        <li>
+                            <div class="icon">
+                                <i class="fa fa-graduation-cap"></i>
+                            </div>
+                            <span class="time open-sans-font text-uppercase">2014</span>
+                            <h5 class="poppins-font text-uppercase">SSC <span class="place open-sans-font">State Board</span></h5>
+                            <p class="open-sans-font">St. Francis High School</p>
+                            <p class="open-sans-font">Percentage : 81.4</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- Experience & Education Ends -->
+    </div>
+</section>
+
+{% endblock %}
